@@ -88,8 +88,9 @@ hr {
 nav {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 nav > button {
@@ -110,7 +111,13 @@ nav > hr {
   margin: 40px 20px;
 }
 
+a {
+  padding-left: 20px;
+
+  color: #e6e6e6;
+}
+
 #content {
   background-color: #e6e6e6;
-  padding-left: 15px;
+  padding-left: 20px;
 }
